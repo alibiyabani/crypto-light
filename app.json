@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "CRP",
+    "slug": "crypto-light",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./CryeptoApp/assets/icon.png",
+    "splash": {
+      "image": "./CryeptoApp/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#121212"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-3940256099942544~1458002511"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./CryeptoApp/assets/adaptive-icon.png",
+        "backgroundColor": "#121212"
+      },
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-7078093402554807~5252380695"
+      },
+      "package": "com.alibiyabani.CRP"
+    },
+    "web": {
+      "favicon": "./CryeptoApp/assets/favicon.png"
+    }
+  }
+}
